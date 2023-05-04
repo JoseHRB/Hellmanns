@@ -1,0 +1,17 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 233, 67);
+    height: 50px;
+    width: 100%;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.cart {
+    margin-right: 15px;
+}
+

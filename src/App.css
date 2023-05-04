@@ -3,7 +3,11 @@
 }
 
 body {
-  background-color: white;
   margin: 0;
   font-family: 'Segoe UI', Helvetica Neue, Helvetica, Lucida Grande, Arial;
+}
+
+.app-window {
+  height: 100vh;
+  background-color: grey;
 }
