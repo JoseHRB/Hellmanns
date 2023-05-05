@@ -2,7 +2,7 @@ import React from "react";
 import './index.css';
 
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-import ProductDescrip from "../productDescrip/index";
+import ProductProperties from "../productProperties/index";
 
 export default () => {
     return (
@@ -38,31 +38,14 @@ export default () => {
                 </div>
 
                 <div className='app-hots'>
-                    <div className="content">
-                        <div className="content-image">
-                            <img 
-                                src="https://img.freepik.com/fotos-gratis/uma-pintura-de-dois-cogumelos-com-uma-tampa-amarela-e-uma-tampa-vermelha_1340-23211.jpg"
-                                alt="/"
-                                style={{
-                                    width: '190px',
-                                    height: '180px'
-                                }}
-                            />
-                        </div>
-                        <ProductDescrip/>
-                    </div>
-                    
 
-                    <div className="content">
-                        2
-                    </div>
+                        <ProductProperties />
 
-                    <div className="content">
-                        3
-                    </div>
-                    <div className="content">
-                        4
-                    </div>
+                        <ProductProperties />
+
+                        <ProductProperties />
+                        
+                        <ProductProperties />
                 </div>
 
             </div>
@@ -71,44 +54,30 @@ export default () => {
 
                 <div className='sections'>
 
-                    <div className="content">
-                        1
-                    </div>
+                    <ProductProperties />
 
-                    <div className="content">
-                        2
-                    </div>
+                    <ProductProperties />
 
-                    <div className="content">
-                        3
-                    </div>
-                    <div className="content">
-                        4
-                    </div>
-                    <div className="content">
-                        5
-                    </div>
+                    <ProductProperties />
+
+                    <ProductProperties />
+
+                    <ProductProperties />
+
                 </div>
 
                 <div className='sections'>
 
-                    <div className="content">
-                        6
-                    </div>
+                   <ProductProperties />
 
-                    <div className="content">
-                        7
-                    </div>
+                   <ProductProperties />
 
-                    <div className="content">
-                        8
-                    </div>
-                    <div className="content">
-                        9
-                    </div>
-                    <div className="content">
-                        10
-                    </div>
+                   <ProductProperties />
+
+                   <ProductProperties />
+
+                   <ProductProperties />
+                   
                 </div>
                
             </div>
