@@ -38,57 +38,6 @@ body {
   border-bottom: 3px solid #3CB371;
 }
 
-
-.side-categories {
-  background-color: #F8F8ff;
-  width: 245px;
-  height: 375px;
-  margin-left: -142px;
-  margin-top: 20px;
-  border-radius: 6px;
-}
-.sc-header {
-  display: flex;
-  align-items: center;
-  height: 40px;
-  width: 100%;
-  background-color: #c0c0c0;
-  border: 1px solid #c0c0c0;
-  border-radius: 6px 6px 0px 0px;
-}
-.sc-icon {
-  display: flex;
-  align-items: center;
-  padding-right: 10px;
-}
-.sc-title {
-  width: 100%;
-  font-size: 15px;
-  font-weight: 700;
-  font-family:  'Roboto', sans-serif;
-}
-.sc-content{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 3px solid #c0c0c0;
-  border-radius: 0px 0px 6px 6px;
-  
-}
-.sc {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 43px;
-  width: 100%;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  border-top: 2px solid blue;
-  border-bottom: 2px solid blue;
-}
-
-
 .products-hots {
   display: flex;
   justify-content: space-between;
