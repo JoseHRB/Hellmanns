@@ -2,9 +2,12 @@ import React from "react";
 import './index.css';
 
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-import ProductProperties from "../productProperties/index";
+import ProductDefault from "../productDefault/index";
+import ProductHots from "../productHots";
 
 export default () => {
+
+    
     return (
         <div className='app-body'>
 
@@ -39,13 +42,14 @@ export default () => {
 
                 <div className='app-hots'>
 
-                        <ProductProperties />
+                    <ProductHots />
 
-                        <ProductProperties />
+                    <ProductHots />
 
-                        <ProductProperties />
-                        
-                        <ProductProperties />
+                    <ProductHots />
+
+                    <ProductHots />
+
                 </div>
 
             </div>
@@ -54,30 +58,30 @@ export default () => {
 
                 <div className='sections'>
 
-                    <ProductProperties />
+                    <ProductDefault />
 
-                    <ProductProperties />
+                    <ProductDefault />
 
-                    <ProductProperties />
+                    <ProductDefault />
 
-                    <ProductProperties />
+                    <ProductDefault />
 
-                    <ProductProperties />
+                    <ProductDefault />
 
                 </div>
 
                 <div className='sections'>
+                    
+                    <ProductDefault />
 
-                   <ProductProperties />
+                    <ProductDefault />
 
-                   <ProductProperties />
+                    <ProductDefault />
 
-                   <ProductProperties />
+                    <ProductDefault />
 
-                   <ProductProperties />
+                    <ProductDefault />
 
-                   <ProductProperties />
-                   
                 </div>
                
             </div>

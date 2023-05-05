@@ -1,0 +1,19 @@
+.content-description h3 {
+    font-size: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+}
+
+.content-description h3 {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-description h3 {
+    color: #A9A9A9;
+}

@@ -1,5 +1,7 @@
 import React from "react";
-import './index.css';
+import './index.css'
+
+import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 
 export default () => {
     return (
@@ -17,10 +19,23 @@ export default () => {
 
             <div className="content-description">
                 <h2>Nome do produto</h2>
-                <h1>R$97,00</h1>
+                    <div className="content-price">
+
+                        <h1>R$90,00</h1>
+
+                        <div className="arrow-left">
+                            <KeyboardBackspaceIcon style={{
+                                width: '23px',
+                                height: '23px'
+                            }}/>
+                        </div>
+
+                        <h3><s>R$98,79</s></h3>
+                        
+                    </div>
                 <p>Descrição do conteúdo</p>
             </div>
 
         </div>
-    );
+    )
 }
