@@ -15,7 +15,6 @@ export default () => {
 
             <div className='app-conteiner'>
 
-                
                 <div className='side-categories'>
 
                     <div className="sc-header">
