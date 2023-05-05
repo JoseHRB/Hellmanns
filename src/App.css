@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Segoe UI', Helvetica Neue, Helvetica, Lucida Grande, Arial;
-  background-color: grey;
+  font-family: 'Segoe UI', Helvetica Neue, Helvetica, Lucida Grande, Arial, 'Roboto', sans-serif;
+  background-color: #DCDCDC;
 }
 
 .app-window {

@@ -7,7 +7,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 export default () => {
 
     return (
-        <div className='app-header'>
+        <header className='app-header'>
             <div className="conteiner">
                 <div className='logo'>
                     <img 
@@ -37,6 +37,6 @@ export default () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
     );
 }
