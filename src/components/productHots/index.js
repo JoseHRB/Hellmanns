@@ -11,8 +11,8 @@ export default () => {
                     src="https://img.freepik.com/fotos-gratis/uma-pintura-de-dois-cogumelos-com-uma-tampa-amarela-e-uma-tampa-vermelha_1340-23211.jpg"
                     alt="/"
                     style={{
-                        width: '190px',
-                        height: '180px'
+                        width: '210px',
+                        height: '185px'
                     }}
                 />
             </div>

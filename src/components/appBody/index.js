@@ -15,6 +15,7 @@ export default () => {
 
             <div className='app-conteiner'>
 
+                
                 <div className='side-categories'>
 
                     <div className="sc-header">
@@ -36,20 +37,28 @@ export default () => {
                         <div className='sc'>sideCategories3</div>
                         <div className='sc'>sideCategories4</div>
                         <div className='sc'>sideCategories5</div>
+                        <div className='sc'>sideCategories6</div>
+                        <div className='sc'>sideCategories7</div>
+                        <div className='sc'>sideCategories8</div>
                     </div>
 
                 </div>
 
-                <div className='app-hots'>
+                <div className="hots-window">
+                    <div className="title-hots">
+                        <h1>Hots/Promotions</h1>
+                    </div>
+                    <div className='products-hots'>
 
-                    <ProductHots />
+                            <ProductHots />
 
-                    <ProductHots />
+                            <ProductHots />
 
-                    <ProductHots />
+                            <ProductHots />
 
-                    <ProductHots />
+                            <ProductHots />
 
+                    </div>
                 </div>
 
             </div>

@@ -11,9 +11,7 @@
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 6px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
-}
-
-.content-description h3 {
-    color: #A9A9A9;
+    color: #FF6347;
 }
