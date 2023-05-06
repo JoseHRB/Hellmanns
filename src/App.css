@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,600;1,500;1,700&family=Roboto:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -15,11 +16,11 @@ body {
 }
 
 .app-body {
-  margin-left: 235px;
-  margin-right: 235px;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 
-.system-msg:hidden{
+.system-msg{
   height: 50px;
   display: flex;
   align-items: center;
@@ -29,46 +30,46 @@ body {
 
 .app-conteiner {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-bottom: 8px;
+  margin-top: 55px;
+  margin-bottom: 55px;
   height: 500px;
-  background: linear-gradient(to top, #FF6347 13%, transparent 80%);
+  background: linear-gradient(to top, #FF6347 14%, transparent 98%);
   border-radius: 0 0 8px 8px;
   background-color: #DCDCDC;
-  border-bottom: 3px solid #3CB371;
+  border-bottom: 3px solid #FF0000;
+}
+
+.title-hots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 250px;
+  width: 550px;
+  height: 50px;
+  padding-bottom: 6px;
+  border-top: 3px solid #FF6347;
+  border-right: 3px solid #FF6347;
+  border-left: 3px solid #FF6347;
+  border-radius: 15px 15px 0px 0px;
+  background-color: transparent;
+}
+.title-hots h1 {
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: 700;
 }
 
 .products-hots {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1020px;
+  width: 1150px;
   height: 375px;
-  margin-top: 40px;
-  margin-left: 15px;
-  margin-right: 50px;
+  margin-top: 45px;
   border-radius: 6px;
 }
-.title-hots {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 250px;
-  width: 500px;
-  height: 50px;
-  padding-bottom: 6px;
-  border-bottom: 5px solid #3CB371;
-  border-right: 5px solid #3CB371;
-  border-left: 5px solid #3CB371;
-  border-radius: 0 0 15px 15px;
-  background-color: #F8F8ff;
-}
-.title-hots h1 {
-  font-size: 25px;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 700;
-}
-
 
 .main-section {
   margin-top: 25px;

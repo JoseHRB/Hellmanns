@@ -40,9 +40,8 @@ export default () => {
                             </div>
 
                         </div>
-
                     </div>
-                    
+
                     <CategoriesDD />
 
                     <div className="main-section">
