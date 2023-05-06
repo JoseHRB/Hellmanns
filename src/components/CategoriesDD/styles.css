@@ -43,8 +43,11 @@
     font-weight: 500;
     font-size: 18px;
     padding: 8px 15px;
+    border-top: 3px solid #F8F8ff;
+    border-left: 3px solid #F8F8ff;
+    border-right: 3px solid #F8F8ff;
     border-bottom: 3px solid #00FF00;
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px;
     color: black;
 }
 
