@@ -1,11 +1,8 @@
 import React from "react";
 import './styles.css';
 
-import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-
 export default () => {
 
-    
     return (
         <nav className="nav-menu">
 
