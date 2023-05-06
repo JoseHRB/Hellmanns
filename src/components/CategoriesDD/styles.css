@@ -1,46 +1,85 @@
-.dp-menu ul {
-    list-style-type: none;
+* {
+    margin: 0;
     padding: 0;
 }
-
-.dp-menu ul {
-    background-color: #F8F8ff;
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 80px;
+    border-radius: 0 0 8px 8px;
+    border-bottom: 2px solid;
+    background: linear-gradient(to top, #2F4F4F 15%, transparent 92%);
 }
 
-.dp-menu ul li {
-    display: inline;
+.nav-menu:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.nav-menu ul {
+    float: left;
+    list-style: none;
     position: relative;
 }
 
-.dp-menu ul li a {
-    color: black;
-    text-decoration: none;
+.nav-menu ul li {
     display: inline-block;
-    padding: 10px;
-    transition: background 0.3s;
+    border-radius: 8px;
+    margin: 0 5px;
+    border-radius: 8px;
+    background: #F8F8ff;
 }
 
-.dp-menu ul li a:hover {
-    background-color: green;
+.nav-menu ul li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 38px;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-bottom: 3px solid #00FF00;
+    border-radius: 0 0 8px 8px;
+    color: black;
 }
 
-/*sub-menu*/
+.nav-menu ul li a:hover {
+    border: 3px solid #00FF00;
+    border-radius: 8px;
+}
 
-.dp-menu ul ul{
-    display: none;
+.nav-menu ul ul {
     position: absolute;
-    left: 0;
-    transition: all 0.3s;
+    top: 65px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
 }
 
-.dp-menu ul li:hover ul{
-    display: block;
+.nav-menu ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
 }
 
-.dp-menu ul ul {
-    width: 150px;
+.nav-menu ul ul li {
+    position: relative;
+    margin: 0px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    float: none;
+    display: list-item;
+    border-radius: 8px;
 }
 
-.dp-menu ul ul li a {
-    display: block;
+.nav-menu ul ul li a {
+    line-height: 30px;
 }
+

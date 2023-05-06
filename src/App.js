@@ -42,6 +42,7 @@ export default () => {
                         </div>
 
                     </div>
+                    
                     <CategoriesDD />
 
                     <div className="main-section">
